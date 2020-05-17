@@ -12,6 +12,16 @@
 		FA00FB29246EFC63003A37AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA00FB27246EFC63003A37AE /* Main.storyboard */; };
 		FA00FB2B246EFC65003A37AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA00FB2A246EFC65003A37AE /* Assets.xcassets */; };
 		FA00FB2E246EFC65003A37AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA00FB2C246EFC65003A37AE /* LaunchScreen.storyboard */; };
+		FA00FB3C246F5970003A37AE /* Show-150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = FA00FB36246F5970003A37AE /* Show-150x150.png */; };
+		FA00FB3D246F5971003A37AE /* Details-150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = FA00FB37246F5970003A37AE /* Details-150x150.png */; };
+		FA00FB3E246F5971003A37AE /* SplitVC-150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = FA00FB38246F5970003A37AE /* SplitVC-150x150.png */; };
+		FA00FB3F246F5971003A37AE /* Modally-150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = FA00FB39246F5970003A37AE /* Modally-150x150.png */; };
+		FA00FB40246F5971003A37AE /* Popup-150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = FA00FB3A246F5970003A37AE /* Popup-150x150.png */; };
+		FA00FB41246F5971003A37AE /* TabBarVC-150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = FA00FB3B246F5970003A37AE /* TabBarVC-150x150.png */; };
+		FA00FB43246F8DAD003A37AE /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00FB42246F8DAD003A37AE /* ModalViewController.swift */; };
+		FA00FB452470720A003A37AE /* ShowSequesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00FB442470720A003A37AE /* ShowSequesViewController.swift */; };
+		FA00FB4724707227003A37AE /* ShowDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00FB4624707227003A37AE /* ShowDetailsViewController.swift */; };
+		FA00FB4924707245003A37AE /* ShowPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00FB4824707245003A37AE /* ShowPopUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		FA00FB2A246EFC65003A37AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA00FB2D246EFC65003A37AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA00FB2F246EFC65003A37AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA00FB36246F5970003A37AE /* Show-150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Show-150x150.png"; sourceTree = "<group>"; };
+		FA00FB37246F5970003A37AE /* Details-150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Details-150x150.png"; sourceTree = "<group>"; };
+		FA00FB38246F5970003A37AE /* SplitVC-150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SplitVC-150x150.png"; sourceTree = "<group>"; };
+		FA00FB39246F5970003A37AE /* Modally-150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Modally-150x150.png"; sourceTree = "<group>"; };
+		FA00FB3A246F5970003A37AE /* Popup-150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Popup-150x150.png"; sourceTree = "<group>"; };
+		FA00FB3B246F5970003A37AE /* TabBarVC-150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TabBarVC-150x150.png"; sourceTree = "<group>"; };
+		FA00FB42246F8DAD003A37AE /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		FA00FB442470720A003A37AE /* ShowSequesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowSequesViewController.swift; sourceTree = "<group>"; };
+		FA00FB4624707227003A37AE /* ShowDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDetailsViewController.swift; sourceTree = "<group>"; };
+		FA00FB4824707245003A37AE /* ShowPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPopUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,32 @@
 		FA00FB22246EFC63003A37AE /* iOS-Swift-SeguesAndNavigationsProgrammatically */ = {
 			isa = PBXGroup;
 			children = (
+				FA00FB35246F595D003A37AE /* images */,
 				FA00FB23246EFC63003A37AE /* AppDelegate.swift */,
 				FA00FB25246EFC63003A37AE /* ViewController.swift */,
+				FA00FB4824707245003A37AE /* ShowPopUpViewController.swift */,
+				FA00FB42246F8DAD003A37AE /* ModalViewController.swift */,
+				FA00FB442470720A003A37AE /* ShowSequesViewController.swift */,
+				FA00FB4624707227003A37AE /* ShowDetailsViewController.swift */,
 				FA00FB27246EFC63003A37AE /* Main.storyboard */,
 				FA00FB2A246EFC65003A37AE /* Assets.xcassets */,
 				FA00FB2C246EFC65003A37AE /* LaunchScreen.storyboard */,
 				FA00FB2F246EFC65003A37AE /* Info.plist */,
 			);
 			path = "iOS-Swift-SeguesAndNavigationsProgrammatically";
+			sourceTree = "<group>";
+		};
+		FA00FB35246F595D003A37AE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FA00FB37246F5970003A37AE /* Details-150x150.png */,
+				FA00FB39246F5970003A37AE /* Modally-150x150.png */,
+				FA00FB3A246F5970003A37AE /* Popup-150x150.png */,
+				FA00FB36246F5970003A37AE /* Show-150x150.png */,
+				FA00FB38246F5970003A37AE /* SplitVC-150x150.png */,
+				FA00FB3B246F5970003A37AE /* TabBarVC-150x150.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +160,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA00FB3D246F5971003A37AE /* Details-150x150.png in Resources */,
+				FA00FB40246F5971003A37AE /* Popup-150x150.png in Resources */,
 				FA00FB2E246EFC65003A37AE /* LaunchScreen.storyboard in Resources */,
+				FA00FB3E246F5971003A37AE /* SplitVC-150x150.png in Resources */,
+				FA00FB3F246F5971003A37AE /* Modally-150x150.png in Resources */,
+				FA00FB3C246F5970003A37AE /* Show-150x150.png in Resources */,
+				FA00FB41246F5971003A37AE /* TabBarVC-150x150.png in Resources */,
 				FA00FB2B246EFC65003A37AE /* Assets.xcassets in Resources */,
 				FA00FB29246EFC63003A37AE /* Main.storyboard in Resources */,
 			);
@@ -136,7 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA00FB26246EFC63003A37AE /* ViewController.swift in Sources */,
+				FA00FB4724707227003A37AE /* ShowDetailsViewController.swift in Sources */,
+				FA00FB4924707245003A37AE /* ShowPopUpViewController.swift in Sources */,
+				FA00FB43246F8DAD003A37AE /* ModalViewController.swift in Sources */,
 				FA00FB24246EFC63003A37AE /* AppDelegate.swift in Sources */,
+				FA00FB452470720A003A37AE /* ShowSequesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
